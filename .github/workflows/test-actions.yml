@@ -1,7 +1,7 @@
 name: system information actions
 on: 
   push:
-    branches: [main]
+    branches: [master]
 jobs:
   sysinfo-workflow-actions:
     runs-on: ubuntu-latest
